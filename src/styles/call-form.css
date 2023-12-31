@@ -1,0 +1,28 @@
+.call-form {
+    background-image: url("../resources/imgs/form_phone.png");
+    background-repeat: no-repeat;
+    width: 672px;
+    height: 295px;
+    margin: auto;
+    margin-top: 140px;
+}
+
+.call-title {
+    height: 39px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+    font-family: Arial, Verdana, "Helvetica CY", sans-serif;
+    color: white;
+}
+
+.call-count {
+    font-family: Arial, Verdana, "Helvetica CY", sans-serif;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 250px;
+    font-size: 180px;
+}

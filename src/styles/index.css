@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+}
+
+.main {
+    display: flex;
+}
+
+.mainPanel {
+    display: block;
+    background-image: radial-gradient(circle, #040030, #030f49, #111664, #231b7f, #37209a);
+    box-sizing: border-box;
+    border: solid white ;
+    border-width: 0px 2px 0px 0px;
+    height: 100vh;
+    width: 100%;
+    min-width: 1024px;
+}
+
+.questionIndexPanel {
+    display: block;
+    background-image: radial-gradient(circle, #040030, #030f49, #111664, #231b7f, #37209a);
+    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
+    height: 100vh;
+}

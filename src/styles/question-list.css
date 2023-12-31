@@ -1,0 +1,58 @@
+.questionIndex {
+    color: #ec9d00;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.dot::before {
+    content: "";
+    height: 5px;
+    width: 5px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.highlight::before {
+    box-shadow: 0 0 7px 1px white;
+}
+
+.question-box {
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.active {
+    background-image: url("../resources/imgs/step_activ.png");
+    background-repeat: no-repeat;
+}
+
+.mark {
+    color: white;
+}
+
+.active > .question-number {
+    color: white;
+}
+
+.active > .question-value {
+    color: black;
+}
+
+.question-number {
+    padding-left: 15px;
+    width: 30px;
+    display: inline-block;
+}
+
+.question-value {
+    padding-left: 15px;
+    position: relative;
+}

@@ -1,0 +1,39 @@
+.help-wrap {
+    margin: 15px;
+}
+
+.button-help {
+    background-image: url("../resources/imgs/butt_sprite.png");
+    width: 74px;
+    height: 60px;
+    display: inline-block;
+    margin: 5px 3px;
+}
+
+.half-help {
+    background-position: -100px -59px;
+}
+
+.half-help-hover:hover{
+    background-position: -99px 1px;
+}
+
+.audience-help {
+    background-position: 0px -59px;
+}
+
+.audience-help-hover:hover{
+    background-position: 0px 1px;
+}
+
+.call-help {
+    background-position: -201px -59px;
+}
+
+.call-help-hover:hover {
+    background-position: -200px 1px;
+}
+
+.disable-help {
+    opacity: 0.5;
+}
